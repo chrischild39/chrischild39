@@ -1,0 +1,96 @@
+List of descriptions for Use Cases:
+
+Pay Monthly Fee:
+
+
+Add Provider Records:
+
+
+Remote Provider Records:
+
+
+
+Update Provider Records:
+
+
+Recieve Health Care Services from ChocAn:
+
+
+
+Billing ChocAn:
+
+
+
+Verification:
+
+
+
+Request for Provider Directory:
+
+
+
+Add Member:
+
+
+
+Remove Member:
+
+
+
+Update Member Records:
+
+
+
+Weekly Billing Report:
+
+
+
+Update relevant ChocAn membership Computer Records:
+
+
+
+
+Use Case: Update relevant ChocAn membership Computer Records
+Context: 
+Actors: Manager
+Main Success Scenario:
+1. Enter user Credentials
+2. Access Member's User Profile
+3. Allow user to edit relevant information
+4. Send all information designated by the member to  ACME 
+5. At 9P.M. connect to ChocAn data center computer to update stored relevant user information
+
+Extensions:
+
+1a. Deny access if User Credentials are incorrect
+3a. If information cannot be updated, deny access to edit information
+4
+
+
+
+Use Case: Service Reports
+Context: 
+Actors: Manager, Member, ChocAn Data Center Operator
+Main Success Scenario:
+1. Starting at Midnight Every Friday, Start procedure 
+2. Read week's File of services provided
+3. Generate User Reports for all members who services were provided to in order of due dates
+3. Report generated includes: Member Name (25 Characters), Member Number (9 digits), 
+	Member Street Address (25 Characters), Member City (14 Characters), Member State (2 Letters),
+	Manage ZIP Code (5 digits)
+4. Under each user service provide the follow details: Date of service (MM-DD-YYYY), Provider (25 Characters),	
+	Service name (20 Characters)
+5. Send generated report as an email to member
+
+Extensions:
+
+2a. Allow manager to print report at any time during the week
+
+
+
+
+
+
+
+
+
