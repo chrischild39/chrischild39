@@ -49,3 +49,28 @@ Update relevant ChocAn membership Computer Records:
 
 
 
+
+Use Case: Update relevant ChocAn membership Computer Records
+Context: 
+Actors: Manager
+Main Success Scenario:
+1. Enter user Credentials
+2. Access Member's User Profile
+3. Allow user to edit relevant information
+4. Send all information designated by the member to  ACME 
+5. At 9P.M. connect to ChocAn data center computer to update stored relevant user information
+
+
+1a. Deny access if User Credentials are incorrect
+3a. If information cannot be updated, deny access to edit information
+4
+
+Extensions:
+
+
+
+
+
+
+
+
