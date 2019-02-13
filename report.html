@@ -1,0 +1,30 @@
+<b>Use case: </b>Weekly Billing Reports<br>
+<b>Context:</b> Providers<br>
+<b>Actors: </b>Provider, Operators, Manager<br>
+<b>Main Success Scenario: <br>
+1. ChocAn sends each provider who has billed ChocAn during that week a report, sent as 
+an e-mail attachment, containing the list of services they provided to members, 
+with a summary including the number of consultations with members and the total fee for that week. <br>
+1.1. This is includes: <br>
+	Provider name (25 characters) <br>
+Provider number (9 digits) <br>
+Provider street address (25 characters) <br>
+Provider city (14 characters) <br>
+Provider state (2 letters) <br>
+Provider ZIP code (5 digits) <br>
+1.2. For each service provided, the following details are required: <br>
+Date of service (MM–DD–YYYY) <br>
+Date and time data were received by the computer (MM–DD–YYYY HH:MM:SS) <br>
+Member name (25 characters) <br>
+Member number (9 digits) <br>
+Service code (6 digits) <br>
+Fee to be paid (up to $999.99) <br>
+ Total number of consultations with members (3 digits) <br>
+Total fee for week (up to $99,999.99) <br>
+	2. A record consisting of electronic funds transfer (EFT) data is then written to a disk; 
+banking computers will later ensure that each provider’s bank account is credited with the appropriate amount. <br>
+3. A summary report is given to the manager for accounts payable. <br>
+3.1. The report lists every provider to be paid that week, the number of 
+consultations each had, and his or her total fee for that week. Finally, the total number of providers who provided services, the total number of consultations, and the overall fee total are printed. <br>
+
+<b>Extensions: <br>
